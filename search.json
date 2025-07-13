@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "reserved.html",
+    "href": "reserved.html",
+    "title": "예약어",
+    "section": "",
+    "text": "if\n\nthen\n\nelif\n\nelse\n\nfi\n\ntime\nfor\nin\n\nuntil\n\nwhile\n\ndo\n\ndone\ncase\n\nesac\n\ncoproc\n\nselect\n\nfunction\n{\n\n}\n\n[[\n\n]]\n\n!",
+    "crumbs": [
+      "예약어"
+    ]
+  },
+  {
+    "objectID": "reserved.html#예약어-목록",
+    "href": "reserved.html#예약어-목록",
+    "title": "예약어",
+    "section": "",
+    "text": "if\n\nthen\n\nelif\n\nelse\n\nfi\n\ntime\nfor\nin\n\nuntil\n\nwhile\n\ndo\n\ndone\ncase\n\nesac\n\ncoproc\n\nselect\n\nfunction\n{\n\n}\n\n[[\n\n]]\n\n!",
+    "crumbs": [
+      "예약어"
+    ]
+  },
+  {
+    "objectID": "command_execution.html",
+    "href": "command_execution.html",
+    "title": "명령 실행 방식",
+    "section": "",
+    "text": "셸은 다음과 같은 명령 실행 방식을 제공한다. https://www.gnu.org/software/bash/manual/bash.html#Shell-Commands-1",
+    "crumbs": [
+      "명령 실행 방식"
+    ]
+  },
+  {
+    "objectID": "command_execution.html#명령-리스트-실행",
+    "href": "command_execution.html#명령-리스트-실행",
+    "title": "명령 실행 방식",
+    "section": "명령 리스트 실행",
+    "text": "명령 리스트 실행\n명령 리스트는 명령이 다음 4가지 구분자로 연결된 것을 말한다.\n\n;: 실행결과와 상관없이 명령을 순차적 실행\n&: 실행결과와 상관없이 명령을 순차적으로 백드라운드 실행\n&&: 실행결과가 0일 때(성공)만 다음 명령 실행. 실행결과가 0이 아니면 중지\n||: 실행결과가 0이 아닐 때(실패)만 다음 명령 실행. 실행결과가 0이면 중지.",
+    "crumbs": [
+      "명령 실행 방식"
+    ]
+  },
+  {
+    "objectID": "command_execution.html#복합-실행",
+    "href": "command_execution.html#복합-실행",
+    "title": "명령 실행 방식",
+    "section": "복합 실행",
+    "text": "복합 실행\n\n루프 실행\n조건 실행\n그룹 실행\n\n\n루프 실행\n\nuntil\nwhile\nfor\n\n\n\n조건 실행\n\nif\ncase\nselect\n(( ))\n[[ ]]\n\n\n\n그룹 실행\n\n( list )\n\n\n서브셸을 생성하고 모든 명령을 서브셸에서 실행\n\n\n{ list; }\n\n\n서브셸을 생성하지 않고 모든 명령을 현재의 셸에서 실행\n마지막에 리스트내의 명령어와 } 기호를 구분하기 위해 반드시 ; 기호 필요 ( ; 기호가 없으면 } 기호가 리스트로 인식될 수 있음)",
+    "crumbs": [
+      "명령 실행 방식"
+    ]
+  },
+  {
+    "objectID": "reference.html",
+    "href": "reference.html",
+    "title": "참고문헌",
+    "section": "",
+    "text": "“The GNU Bash Reference Manual.” 2025. 2025. https://www.gnu.org/software/bash/manual/bash.html.",
+    "crumbs": [
+      "참고문헌"
+    ]
+  }
+]
